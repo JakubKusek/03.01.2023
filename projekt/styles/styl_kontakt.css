@@ -1,0 +1,347 @@
+ /* TABLE OF CONTENT
+ 
+ 
+ phone css formating 
+ */
+
+ body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+html, body {
+    scroll-behavior: smooth;
+}
+
+ul, ul li {
+    list-style-type: none;
+    display: block;
+}
+
+ul li {
+	display: inline;
+	white-space: nowrap;
+}
+
+header {
+    margin: 5px 0px;
+    z-index: 1000;
+    width: 100%;
+    top: 0;
+    transition: 0.5s ease-in-out;
+    background-color: #fff;
+
+    margin-top: -1px;
+    transition: top 0.3s;
+}
+
+header li a {
+    list-style-type: none;
+    text-decoration: none;
+    padding-left: 10px;
+    color: #333;
+    font-weight: 500;
+    font-size: 12px;
+    align-items: center;
+    position: relative;
+    display: inline-block;
+    
+    
+}
+
+footer {
+    background-color: #333;
+    padding: 60px 0;
+    float: left;
+    width: 100%;
+}
+
+footer ul li a {
+    list-style-type: none;
+    text-decoration: none;
+    color: #999;
+    font-weight: 500;
+    font-size: 14px;
+    padding: 15px;
+}
+
+footer ul li p {
+    color: #999;
+    font-weight: 500;
+    font-size: 14px;
+}
+
+footer ul li p a {
+    color: #fff;
+    font-weight: 500;
+    font-size: 14px;
+}
+
+#s1 {
+    background:linear-gradient(0deg, rgba(0, 0, 0, 0.555),rgba(0, 0, 0, 0.555)), url("../img/banner_kontakt.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: 35%;
+
+    width: 100%;
+    height: 600px;
+    padding-top: 50px;
+
+    text-align: center;
+    color: white;
+    font-size: larger;
+    text-shadow: 100px 100px 1 black;
+}
+
+#p1 {
+    font-size: 56px;
+    text-align: left;
+    margin-left: 100px;
+}
+
+#p2 {
+    font-size: 20px;
+    margin-top: -23px;
+    font-weight: bold;
+}
+#p1,#p2,#arrow
+{
+    animation-duration: 1s;
+    animation-name: d1_1;
+    animation-fill-mode: forwards;
+    
+}
+
+.auto 
+{
+    animation-duration: 1s;
+    animation-name: auto;
+    animation-fill-mode: forwards;
+}
+
+
+.my span
+{
+    border-bottom: 2px #386195 solid;
+    padding-bottom: 15px;
+    color: #333;
+}
+
+.my {
+    font-size: 36px;
+    margin-bottom: 45px;
+    color: #333;
+}
+
+#my2 span
+{
+border-bottom: 2px #386195 solid;
+padding-bottom: 15px;
+font-size: 34px;
+color: #333;
+}
+
+#my2 {
+    margin-bottom: 45px;
+    font-size: 34px;
+    color: #333;
+}
+
+
+#navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    transition: top 0.7s;
+    background-color: #fff;
+    color: #000;
+    z-index: 300;
+}
+  
+#navbar a {
+    font-size: 14px;
+}
+
+#m1 {
+    margin-left: 70px;
+}
+
+#m2 {
+    background-color: #fff;
+    width: 100%;
+    text-align: center;
+    z-index: 300;
+}
+
+#m2 ul li a{
+    font-size: 16px;
+    padding: 3px;
+    text-align: center;
+
+}
+
+#arrow {
+    margin-top: 230px;
+    animation-duration: 2s;
+    animation-name: arrowAnimation;
+    animation-timing-function: ease;
+    animation-iteration-count: infinite;
+    
+}
+
+#m2 a::after
+{
+    
+    content: "";
+    position: absolute;
+    transform: scaleX(0);
+    height: 4px;
+    width: 100%;
+    left: 0;
+    bottom: -5px;
+    transition: 0.3s;
+    transform-origin: bottom ;
+    background-color: #fff;
+    align-items: center;
+}
+ #m2 a:hover::after
+{
+    transform: scaleX(1);
+    background-color: rgb(0, 0, 0);
+    transform-origin: bottom;
+    align-items: center;
+}
+
+.spann {
+position:absolute; 
+width:100%;
+height:100%;
+top:0;
+left: 0;
+z-index: 1;
+}
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+
+.oferta {
+    background-image:url(../img/auto1.jpg); 
+    max-width: 420px; 
+    padding-top: 250px;
+    background-size: cover; 
+    margin-left: 18%; 
+    margin-top: 30px; 
+    background-position-x: 40%; 
+    width: 50%;
+    float: left;
+    background-color: #f9f9f9;
+}
+
+.oferta2 {
+    background-image:url(../img/banner1.jpg); 
+    max-width: 420px; 
+    padding-top: 250px;
+    margin-left: 30px; 
+    margin-top: 30px; 
+    background-size: cover; 
+    background-position-x: 40%; 
+    width: 50%;
+    float: left;
+    background-color: #f9f9f9;
+}
+
+.oferta3 {
+    background-image:url(../img/auto3.jpg); 
+    max-width: 420px; 
+    padding-top: 250px;
+    background-size: cover; 
+    margin-left: 18%; 
+    margin-top: 30px; 
+    background-position-x: 40%; 
+    width: 50%;
+    float: left;
+    background-color: #f9f9f9;
+}
+
+.oferta4 {
+    background-image:url(../img/auto4.jpg); 
+    max-width: 420px; 
+    padding-top: 250px;
+    margin-left: 30px; 
+    margin-top: 30px; 
+    background-size: cover; 
+    background-position-x: 40%; 
+    width: 50%;
+    float: left;
+    background-color: #f9f9f9;
+}
+
+.button_down {
+    text-decoration: none;
+    border: 0;
+    background-color: #386195;
+    color: white;
+    font-size: 14px;
+    padding: 15px 120px;
+    margin-bottom: 50px;
+}
+
+.paralax {
+    background-image:url(../img/banner2.jpg); 
+    margin-top: 920px; 
+    height: 400px; 
+    text-align: center; 
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+@keyframes arrowAnimation {
+    0%   {transform:translateY(-30px) ;}
+    30% {transform:translateY(0) ;}
+    100% {transform:translateY(-30px) ;}
+}
+@keyframes d1_1
+{
+    0%
+    {
+        opacity: 0;
+    }
+    100%
+    {
+        opacity: 1;
+        transform:translateY(130px);
+        
+    }
+
+}
+@keyframes auto
+{
+    0%
+    {
+        opacity: 0;
+    }
+    100%
+    {
+        opacity: 1;
+        
+        
+    }
+}
+
+
+
+
+
+ /* phone css formating */
+
+@media (max-width: 500px){
+    #p1{
+
+    }
+}

@@ -97,7 +97,7 @@ footer ul li p a {
 #p1 {
     font-size: 56px;
     text-align: left;
-    margin-left: 50px;
+    margin-left: 100px;
 }
 
 #p2 {
@@ -120,15 +120,17 @@ footer ul li p a {
     animation-fill-mode: forwards;
 }
 
-#my span
+
+.my span
 {
     border-bottom: 2px #386195 solid;
     padding-bottom: 15px;
     color: #333;
 }
 
-#my {
+.my {
     margin-bottom: 45px;
+    color: #333;
 }
 
 #my2 span

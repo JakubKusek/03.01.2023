@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PALGAZ LIDIA PRZYGODA</title>
+    <link rel="icon" type="image/x-icon" href="../img/favicon.png">
+    <link rel="stylesheet" href="../styles/styl_samochody.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script>
+        var prevScrollpos = window.pageYOffset;
+        window.onscroll = function() {
+        var currentScrollPos = window.pageYOffset;
+        if (prevScrollpos < currentScrollPos) 
+        {
+            document.getElementById("navbar").style.top = "-65px";
+        } 
+        else 
+        {
+            document.getElementById("navbar").style.top = "-15px";
+        }
+        prevScrollpos = currentScrollPos;
+        }
+    </script>
+</head>
+
+<body onload="AOS.init()">
+    <header id="navbar">
+        <nav>
+            <ul id="m1">
+                <li class="email-header">
+                <a href="mailto:a.przygoda@vp.pl">E-mail: a.przygoda@vp.pl</a>
+                </li>
+				<li class="email-header">
+                <a href="mailto:palgaz_mielec@interia.pl">palgaz_mielec@interia.pl</a>
+                </li>
+                <li>
+                <a href="tel:609 041 808">609 041 808</a>
+                </li>
+				<li>
+                    <a href="tel:175 836 582">175 836 582</a>
+                </li>
+            </ul>
+        </nav>
+        <div><hr style="margin-top: -10px;">
+            <nav id="m2">
+                
+                <ul>
+                    <li><a href="index.html">STRONA GŁÓWNA</a></li>
+                    <li><a href="samochody.html">NASZE SAMOCHODY</a></li>
+                    <li><a href="galeria.html" style="font-weight: bold;">GALERIA</a></li>
+                    <li><a href="kontakt.html">KONTAKT</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    
+
+    <section id="s1"><BR><BR><BR>
+   
+        <p id="p1">GALERIA</p>
+        <div id="arrow"><a href="#etykieta1" class="scroll_arrow"><img src="../img/arrow.png"></a></div>
+            </div>
+    </div>
+    </section>
+
+    <BR id="etykieta1" style="scroll-behavior: smooth"><BR><BR><BR>
+        <div data-aos="zoom-in" style="text-align: center;">
+            <p style="color: #386195;" class="auto">OTO NASZA</p>
+            <h1 class="my">GALE<span>RIA </span>FOTO</h1>   
+    </div>
+    <div style="display: flex; justify-content: center; gap: 30px;">
+        <img src="../img/z1.jpg" style="float: right; width: 42%;">
+        <img src="../img/z2.jpg" style="float: left; width: 42%;">
+    </div><br>
+    <div style="display: flex; justify-content: center; gap: 30px;">
+        <img src="../img/z3.jpg" style="float: right; width: 42%;">
+        <img src="../img/z4.jpg" style="float: left; width: 42%;">
+    </div><br>
+    <div style="display: flex; justify-content: center; gap: 30px;">
+        <img src="../img/z5.jpg" style="float: right; width: 42%;">
+        <img src="../img/z6.jpg" style="float: left; width: 42%;">
+    </div><br>
+    <div style="display: flex; justify-content: center; gap: 30px;">
+        <img src="../img/z7.jpg" style="float: right; width: 42%;">
+        <img src="../img/z8.jpg" style="float: left; width: 42%;">
+    </div><br>
+    <div style="display: flex; justify-content: center; gap: 30px;">
+        <img src="../img/z9.jpg" style="float: right; width: 42%;">
+        <img src="../img/z10.jpg" style="float: left; width: 42%;">
+    </div><br>
+    <div style="display: flex; justify-content: center; gap: 30px;">
+        <img src="../img/z11.jpg" style="float: right; width: 42%;">
+        <img src="../img/z12.jpg" style="float: left; width: 42%;">
+    </div><br>
+    <div style="display: flex; justify-content: center; gap: 30px;">
+        <img src="../img/z13.jpg" style="float: right; width: 42%;">
+    </div><br>
+
+    <footer>
+        <center>
+            <ul style="text-decoration: none;">
+                <li><a href="#">STRONA GŁÓWNA</a></li>
+                <li><a href="#">NASZE SAMOCHODY</a></li>
+                <li><a href="#">GALERIA</a></li>
+                <li><a href="#">KONTAKT</a></li><br>
+                <li><p>Copyrights 2022 | Design by <a href="#">Jakub</a></p></li>
+            </ul>
+            <br>
+            
+        </center>
+    </footer>
+</body>
+</html>
